@@ -83,7 +83,7 @@ public class EmployeeDaoImpl implements EmployeeDaoIntrf{
             pstm.setInt(2,id);
             int cnt=pstm.executeUpdate();
             if(cnt!=0)
-                System.out.println("Employee details updates successfully: ");
+                System.out.println("Employee Details Updates Successfully: ");
         }catch (Exception e){
             e.printStackTrace();
         }
